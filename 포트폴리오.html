@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's me</title>
+    <!-- 웹사이트 브라우저 아이콘 -->
+    <link rel="icon" type="image/png" href="아이콘있는 경로">
+    <script src="https://kit.fontawesome.com/46839fc23c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./포트폴리오.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+       <!--
+         1.이미지 사이즈가 재각각 
+        img compression :이미지 사이즈 줄이기
+        2.box-sizing : border-box
+         페딩,border포함해서 box사이즈를 잡는다.
+        3.position 
+          absolute
+          근접한 부모중에 기본값인 static이 아닌 것을 기준으로 한다.
+          relative 
+          요소가 원래있던 위치에서 사방값으로 상대적으로 이동한다.    
+        -->
+    <nav id="navbar">
+        <div class="navbar_logo">
+            <i class="fab fa-diaspora"></i>
+            <a href="#">Allday</a>
+        </div>
+        <ul class="navbar_menu">
+            <li class="navbar_menu_item active">Home</li>
+            <li class="navbar_menu_item">About</li>
+            <li class="navbar_menu_item">Skills</li>
+            <li class="navbar_menu_item">My work</li>
+            <li class="navbar_menu_item">Testimonial</li>
+            <li class="navbar_menu_item">Contact</li>
+        </ul>
+    </nav>
+    <section id="home" class="section">
+        <img src="../프젝 이미지/식품/1-2.jpg" alt="" class="home_avatar">
+        <h1 class="home_title">Hello <br>I'm AllDay</h1>
+        <h2 class="hoem_description">강조하고 싶은 문장</h2>
+        <button class="home_contact">contact me</button>
+
+    </section>
+    <section id="about" class="section_container section">
+        <h1>About me</h1>
+        <p>
+           나에 대한 이야기들(학교/포트폴리오/프레임워크/기술)
+        </p>
+        <div class="about_majors">
+            <div class="mjor">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major_title">Front-end</h2>
+                <div class="major_description">
+                    HTML,CSS JavaScript
+                </div>
+            </div>
+<!-- ㅁㄴㅇㅁㄴㅇ -->
+            <div class="mjor">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major_tilte">Front-end</div>
+                <div class="major_description">
+                    HTML,CSS JavaScript
+                </div>
+            </div>
+
+            <div class="mjor">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major_tilte">Front-end</div>
+                <div class="major_description">
+                    HTML,CSS JavaScript
+                </div>
+            </div>
+        </div> 
+        
+            <!-- <div class="about_gobs">
+                <div class="study">
+                    <img src="../프젝 이미지/스킨케어/10.jpg" alt="" class="study_logo">
+                    <p class="study_name">스터디</p>
+                    <p class="study_period"></p>
+                </div>
+            </div> -->
+    </section>
+    <section id="skills" class="section">
+        <div class="section_container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur, modi placeat architecto voluptas voluptatum aut reiciendis nulla tenetur facilis aspernatur consequuntur maxime temporibus debitis, fuga totam nostrum inventore culpa?
+            </p>
+            <div class="skillset">
+                <div class="skillset_left">
+                    <h3 class="skillset_title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99</span>
+                        </div>  
+                        <div class="skill_bar">
+                            <div class="skill_value" style="width: 100%;"></div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99</span>
+                        </div>  
+                        <div class="skill_bar">
+                            <div class="skill_value"  style="width: 80%;"></div>
+                        </div>                  
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99</span>
+                        </div>    
+                        <div class="skill_bar">
+                            <div class="skill_value"  style="width: 70%;"></div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99</span>
+                        </div>  
+                        <div class="skill_bar">
+                            <div class="skill_value"  style="width: 85%;"></div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="skillset_right">
+                    <div class="tools">
+                        <h3 class="skillset_title">Tools</h3>
+                        <ul class="tools_list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>IntelliJ</span></li>
+                            <li><span>Android Studio Code</span></li>
+                            <li><span>ioS development tools</span></li>
+                            <li><span>Sketch app</span></li>
+                        </ul>
+                    </div>
+    
+                    <div class="etc">
+                        <h3 class="skillset_title">Etc</h3>
+                        <ul class="etc_list">
+                            <li><span>git</span></li>
+                            <li><span>잘할수 있는거</span></li>
+                            <li><span>잘할수 있는거</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+ 
+    </section>
+    <section id="work" class="section">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work_categories">
+            <button class="category_btn active">Web All <span class="category_count">9</span></button>
+            <button class="category_btn">PC <span class="category_count">3</span></button>
+            <button class="category_btn">Teblet <span class="category_count">3</span></button>
+            <button class="category_btn">Mobile <span class="category_count">3</span></button>
+        </div>
+     
+        <div class="work_projects">
+            <a href="#" class="project" target="_blank">
+                <img src="./KakaoTalk_20221226_002913251_01.jpg"class=project_img alt="프로젝트이미지 캡쳐">
+                <div class="project_description">
+                    <h3>포트폴리오 사이트</h3>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+        
+      
+            <a href="https://github.com/rlawhddlf0623" class="project" target="_blank">
+                <img src="./KakaoTalk_20221226_002913251_02.jpg"class=project_img alt="프로젝트이미지 캡쳐">
+                <div class="project_description">
+                    <h3>Git Hub</h3>
+                    <span>My Git Hub Site </span>
+                </div>
+            </a>
+       
+       
+            <a href="#" class="project" target="_blank">
+                <img src="./KakaoTalk_20221226_002913251_03.jpg"class=project_img alt="프로젝트이미지 캡쳐">
+                <div class="project_description">
+                    <h3>포트폴리오 사이트</h3>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+       
+       
+            <a href="#" class="project" target="_blank">
+                <img src="./KakaoTalk_20221226_002913251.jpg"class=project_img alt="프로젝트이미지 캡쳐">
+                <div class="project_description">
+                    <h3>포트폴리오 사이트</h3>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="testimonials" class="section">
+        <h1>testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonial">
+            <img src="../프젝 이미지/식품/11-1.jpg" alt="동료 사진" class="testimonial_avata">
+            <div class="testimonial_speech-bubble">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, eveniet magni quibusdam nostrum error, hic officia cumque inventore et, praesentium autem voluptates reprehenderit at earum iste tempore voluptate vel quod.</p>
+                <p class="name"><a href="">Ellie</a>/Samsung</p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <img src="../프젝 이미지/식품/11-1.jpg" alt="동료 사진" class="testimonial_avata">
+            <div class="testimonial_speech-bubble">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, eveniet magni quibusdam nostrum error, hic officia cumque inventore et, praesentium autem voluptates reprehenderit at earum iste tempore voluptate vel quod.</p>
+                <p class="name"><a href="">Ellie</a>/Samsung</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="section">
+        <h1 class="contact_title">Let's talk</h1>
+        <h2 class="contact_email">rlawhddlf0623.naver.com</h2>
+        <div class="contact_links">
+            <a href="깃허브 링크" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
